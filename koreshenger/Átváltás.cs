@@ -42,7 +42,7 @@ namespace atvalt
             }
             return eredm;
             }
-        private void binarisToDecimals(string szam)
+        private bool BinarisToDecimals(string szam)
         {
             int j = -1;
             for (int i = 0 szam.lenght - 1; i >= 0; int--){
